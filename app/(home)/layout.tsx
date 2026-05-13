@@ -1,7 +1,7 @@
-import "./globals.css";
+import "../globals.css";
 import { Roboto } from "next/font/google";
-import { HomeHeader } from "./../components/header/Header";
-import { HomeFooter } from "./../components/footer/Footer";
+import { HomeHeader } from "@/components/header/Header";
+import { HomeFooter } from "@/components/footer/Footer";
 
 const RobotoSans = Roboto({
   variable: "--font-custom-sans",
