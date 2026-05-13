@@ -7,7 +7,7 @@ import "swiper/css";
 
 export default function Hero() {
   return (
-    <div className="w-full">
+    <div className="w-full flex">
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -18,7 +18,7 @@ export default function Hero() {
       >
         <SwiperSlide>
           <img
-            src="https://placehold.co/1200x500?text=Slide+1"
+            src="https://placehold.co/3000x800?text=Slide+1"
             alt="Slide 1"
             className="w-full"
           />
@@ -26,7 +26,7 @@ export default function Hero() {
 
         <SwiperSlide>
           <img
-            src="https://placehold.co/1200x500?text=Slide+2"
+            src="https://placehold.co/3000x800?text=Slide+2"
             alt="Slide 2"
             className="w-full"
           />
@@ -34,7 +34,7 @@ export default function Hero() {
 
         <SwiperSlide>
           <img
-            src="https://placehold.co/1200x500?text=Slide+3"
+            src="https://placehold.co/3000x800?text=Slide+3"
             alt="Slide 3"
             className="w-full"
           />
