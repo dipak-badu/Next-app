@@ -1,7 +1,8 @@
+import Hero from "@/components/banner/Hero";
 export default function Home() {
   return (
     <>
-      <section>Hero /Banner</section>
+      <Hero />
       <section>Ads</section>
       <section>Flash sales</section>
       <section>Categories</section>
